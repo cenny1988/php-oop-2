@@ -85,7 +85,7 @@ class Employee extends Persona{
 
     public function __construct($nome, $cognome, $stipendio){
 
-        parent:: __construct($nome, $cognome, $stipendio);
+        parent:: __construct($nome, $cognome);
 
         $this -> setStipendio($stipendio);
     }
